@@ -1,0 +1,139 @@
+<header className={"bg-cyan-950 p-10 text-slate-50 text-center flex space-x-2"}>
+        <div className={""}>Welcome to Hendrik Nicolas' Portfolio</div>
+        <div>test</div>
+      </header>
+
+      <main>
+        <section className={`text-xl font-bold`}>
+          <h2>About Me</h2>
+          <p>Hello! I'm Hendrik Nicolas, a web developer with a passion for creating interactive and dynamic web applications. Here you can find some of my projects and learn more about my skills and experience.</p>
+        </section>
+        <BsFillMoonStarsFill style={{ fill: 'red' }}/>
+        <section>
+          <h2>Portfolio</h2>
+          <div>
+            <p>Project 1: Description of the project goes here.</p>
+            <p>Project 2: Description of the project goes here.</p>
+            <p>Project 3: Description of the project goes here.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>If you'd like to get in touch, feel free to <a href="mailto:hendrik.carlo@binus.co.id">email me</a>.</p>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2024 Hendrik Nicolas. All rights reserved.</p>
+      </footer>
+
+
+      body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #d7d2d2;
+}
+
+header {
+  background: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #282c34;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: large;
+}
